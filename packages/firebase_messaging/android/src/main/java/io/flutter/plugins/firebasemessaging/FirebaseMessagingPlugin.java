@@ -38,7 +38,7 @@ import java.util.Map;
 public class FirebaseMessagingPlugin extends BroadcastReceiver
     implements MethodCallHandler, NewIntentListener, FlutterPlugin, ActivityAware {
 
-  private static final String CLICK_ACTION_VALUE = "FLUTTER_NOTIFICATION_CLICK";
+  private static final String CLICK_ACTION_VALUE = "https://shurasystem.com/v8/";
   private static final String TAG = "FirebaseMessagingPlugin";
 
   private MethodChannel channel;
